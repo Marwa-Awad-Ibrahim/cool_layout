@@ -1,0 +1,32 @@
+html, body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+html{
+    background-color: #D2D2D2;
+}
+main{
+    background-color: #ffffff;
+    text-align: center;
+    margin: 5rem auto;
+    padding: 5rem 2rem;
+    width: 90%;
+}
+    ul{
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:70px;
+    list-style-type: none;
+    line-height: 1.9;
+}
+
+h1, h2{
+    color: #7F7F7F;
+}
+strong{
+    color:black;
+}
+
+
